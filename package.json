@@ -8,18 +8,10 @@
     "puppeteer": "^21.0.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "install": "corepack enable && corepack prepare pnpm@latest --activate && pnpm install"
   },
   "engines": {
     "node": "18"
   }
-
-  "engines": {
-  "node": "18"
-},
-"scripts": {
-  "start": "node server.js",
-  "install": "corepack enable && corepack prepare pnpm@latest --activate && pnpm install"
-}
-
 }
